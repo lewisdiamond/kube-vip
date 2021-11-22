@@ -44,7 +44,7 @@ The easiest method to generate a manifest is using the container itself, below w
 `alias kube-vip="ctr run --rm --net-host ghcr.io/kube-vip/kube-vip:$KVVERSION vip /kube-vip"`
 
 ### Docker
-`alias kube-vip="docker run --network host --rm ghcr.io/kube-vip/kube-vip:KVVERSION"`
+`alias kube-vip="docker run --network host --rm ghcr.io/kube-vip/kube-vip:$KVVERSION"`
 
 ## Deploy Kube-vip as a deamonset
 
